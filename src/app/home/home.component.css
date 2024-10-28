@@ -27,22 +27,19 @@
     width: 100%;
 }
 
-.text-left {
-    margin: 80px;
+.text-left {  
     text-align: start;
 }
 
 .home-title {
     font-size: 5rem;
     color: #e0f0ff;
-    margin-bottom: 5rem;
     line-height: 5rem;
 }
 
 .home-author {
     font-size: 3.5rem;
-    color: #b0caf063;
-    margin-bottom: 3rem;
+    color: white;
 }
 
 #dynamic-text {
@@ -57,3 +54,41 @@
     50% { border-color: #00FF00; }
 }
 
+
+/* sample code here */
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    border: 1px solid white;
+    &:hover{
+        transform: translateY(-7px);
+    }
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.95em;
+    color: #666;
+  }

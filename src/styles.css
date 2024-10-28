@@ -104,7 +104,6 @@ button:hover {
 .default-topic {
     font-size: 2.5rem;
     color: #ffffff;
-    margin-bottom: 3rem;
 }
 
 .default-subtopic {
@@ -178,4 +177,8 @@ blockquote {
     width: 100%;
     left: 0;
     background: #00FF00;
+}
+
+.white-border{
+    border: 1px solid white;
 }

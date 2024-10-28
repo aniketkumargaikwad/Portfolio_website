@@ -38,6 +38,9 @@ export class Tag {
     static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
     static readonly SQLITE = new Tag('SQLite', '#355158');
     static readonly PYDANTIC = new Tag('Pydantic', '##4a6a77');
+    static readonly SYSTEM_DESIGN = new Tag('System Design', '#4a6a77');
+    static readonly LLD = new Tag('Low level design', '#4a6a77');
+    static readonly OOPS = new Tag('Object Oriented Programming (OOPs)', '#4a6a77');
 
 
 

@@ -37,3 +37,6 @@
 .bg-dark {
     background-color: hsl(212, 26%, 14%) !important;
 }
+.white{
+    color: white;
+}
